@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Elloumi Concept — Maison d'entraînement privée",
+    "title": "Elloumi Concept Gym — Maison d'entraînement privée",
     "description": "Coaching privé, adhésions limitées. Un plateau calme, des coachs seniors, une maison pensée pour l'entraînement sérieux — sur rendez-vous uniquement."
   },
   "header": {
@@ -10,7 +10,9 @@
     "contact": "Contact",
     "concierge": "Conciergerie",
     "menu": "Menu",
-    "brandAccent": " Concept"
+    "brandAccent": " Concept Gym",
+    "logoAlt": "Elloumi Concept Gym — Salle de sport de luxe",
+    "brandName": "Elloumi Concept Gym"
   },
   "hero": {
     "eyebrow": "Coaching privé · Adhésions limitées",
@@ -147,10 +149,10 @@
     "careers": "Carrières",
     "rights": "Tous droits réservés.",
     "finePrint": "Consultations privées · Sur rendez-vous",
-    "copyrightBrand": "Elloumi Concept"
+    "copyrightBrand": "Elloumi Concept Gym"
   },
   "reservation": {
-    "metaTitle": "Réserver une visite | Elloumi Concept",
+    "metaTitle": "Réserver une visite | Elloumi Concept Gym",
     "metaDescription": "Demandez une visite privée ou un entretien. La conciergerie confirme par e-mail.",
     "eyebrow": "Réservation",
     "heading": "Demander une visite privée",

@@ -26,25 +26,34 @@
     --radius: 0.25rem;
   }
 
+  /* “Dark” slot = gris clair luxe: silver-warm canvas + ink type (no pitch black) */
   .dark {
-    --background: 28 22 7;
-    --foreground: 40 24 96;
-    --card: 28 18 11;
-    --card-foreground: 40 24 96;
-    --popover: 28 18 11;
-    --popover-foreground: 40 24 96;
-    --muted: 30 12 38;
-    --muted-foreground: 38 12 72;
-    --accent: 38 42 58;
-    --accent-foreground: 28 22 8;
-    --destructive: 0 84 60;
-    --destructive-foreground: 40 24 96;
-    --border: 28 14 18;
-    --input: 28 14 18;
-    --ring: 38 42 58;
+    color-scheme: light;
+    --background: 40 6% 76%;
+    --foreground: 25 14% 16%;
+    --card: 40 5% 84%;
+    --card-foreground: 25 14% 16%;
+    --popover: 40 5% 88%;
+    --popover-foreground: 25 14% 16%;
+    --muted: 38 5% 68%;
+    --muted-foreground: 26 6% 38%;
+    --accent: 28 12% 22%;
+    --accent-foreground: 42 12% 96%;
+    --destructive: 0 58% 40%;
+    --destructive-foreground: 40 10% 98%;
+    --border: 38 5% 62%;
+    --input: 38 5% 66%;
+    --ring: 28 12% 28%;
   }
 }
 
 body {
   @apply bg-background text-foreground;
+}
+
+/* Monochrome logo → light grey (gris clair); same filter on light & gris-clair dark canvas */
+.brand-logo-gris-clair {
+  width: auto;
+  object-fit: contain;
+  filter: invert(76%) sepia(3%) saturate(0%) hue-rotate(183deg) brightness(103%) contrast(88%);
 }

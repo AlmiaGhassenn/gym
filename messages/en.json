@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Elloumi Concept — Private training house",
+    "title": "Elloumi Concept Gym — Private training house",
     "description": "Private training, limited membership. A calm floor, senior coaches, and a house built for serious training — by appointment only."
   },
   "header": {
@@ -10,7 +10,9 @@
     "contact": "Contact",
     "concierge": "Concierge",
     "menu": "Menu",
-    "brandAccent": " Concept"
+    "brandAccent": " Concept Gym",
+    "logoAlt": "Elloumi Concept Gym — Luxury gym",
+    "brandName": "Elloumi Concept Gym"
   },
   "hero": {
     "eyebrow": "Private training · Limited membership",
@@ -147,10 +149,10 @@
     "careers": "Careers",
     "rights": "All rights reserved.",
     "finePrint": "Private consultations · By appointment",
-    "copyrightBrand": "Elloumi Concept"
+    "copyrightBrand": "Elloumi Concept Gym"
   },
   "reservation": {
-    "metaTitle": "Reserve a visit | Elloumi Concept",
+    "metaTitle": "Reserve a visit | Elloumi Concept Gym",
     "metaDescription": "Request a private tour or consultation. The concierge will confirm by email.",
     "eyebrow": "Reservation",
     "heading": "Request a private visit",

@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from 'framer-motion';
 import { Instagram, Linkedin, Twitter } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { useI18n } from '@/components/i18n-provider';
@@ -25,9 +26,22 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 md:px-12 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <motion.div custom={0} variants={col} initial="hidden" whileInView="visible" viewport={viewportOnce}>
-            <h3 className="text-xl font-serif font-light tracking-tight mb-4">
-              Elloumi<span className="text-accent">{t('header.brandAccent')}</span>
-            </h3>
+            <Link
+              href={href('/')}
+              aria-label={t('header.logoAlt')}
+              className="inline-flex flex-wrap items-center gap-3 mb-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-sm"
+            >
+              <Image
+                src="/logo.jpg"
+                alt=""
+                width={220}
+                height={88}
+                className="brand-logo-gris-clair h-10 md:h-11 w-auto max-w-[min(200px,70vw)] shrink-0"
+              />
+              <span className="font-serif font-light text-foreground tracking-tight text-lg md:text-xl">
+                {t('header.brandName')}
+              </span>
+            </Link>
             <p className="text-sm text-muted-foreground font-light leading-relaxed max-w-xs">
               {t('footer.tagline')}
             </p>
