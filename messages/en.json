@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Elloumi Concept — Private training house",
+    "description": "Private training, limited membership. A calm floor, senior coaches, and a house built for serious training — by appointment only."
+  },
+  "header": {
+    "house": "The house",
+    "membership": "Membership",
+    "reserve": "Reserve",
+    "contact": "Contact",
+    "concierge": "Concierge",
+    "menu": "Menu",
+    "brandAccent": " Concept"
+  },
+  "hero": {
+    "eyebrow": "Private training · Limited membership",
+    "titleLine1": "A discreet address",
+    "titleLine2": "for serious training",
+    "body": "By appointment only. A calm floor, considered equipment, and coaches who train professionals — not crowds.",
+    "ctaPrimary": "Request access",
+    "ctaSecondary": "View the house",
+    "imageAlt": "Minimal training floor with racks and soft daylight"
+  },
+  "features": {
+    "eyebrow": "The standard",
+    "heading": "Nothing loud. Everything considered.",
+    "items": [
+      {
+        "title": "Curated floor",
+        "description": "A tight edit of equipment — each piece chosen for feel, longevity, and precision."
+      },
+      {
+        "title": "Senior coaches",
+        "description": "No floor traffic. Sessions are private, paced, and built around your schedule."
+      },
+      {
+        "title": "Members-only hours",
+        "description": "Quiet blocks reserved for the house — training without the spectacle."
+      },
+      {
+        "title": "Recovery, integrated",
+        "description": "Cold, heat, and mobility as part of the program — not an add-on aisle."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "The house",
+    "heading": "Rooms with intent — not a theme park floor",
+    "body": "Each zone is sized for how members actually train: short walks between kit, sightlines kept low, and light that flatters effort instead of glare. These frames are from houses we admire; yours will be photographed on site after opening.",
+    "aside": "Tours are private and unhurried. If you are comparing clubs, bring shoes — we would rather you feel the floor than read another brochure.",
+    "images": {
+      "1": {
+        "title": "The floor",
+        "caption": "Open layout, no clutter — room to move and breathe.",
+        "alt": "Spacious gym floor with equipment and large windows"
+      },
+      "2": {
+        "title": "Strength room",
+        "caption": "Free weights and calibrated plates.",
+        "alt": "Strength training area with dumbbells and benches"
+      },
+      "3": {
+        "title": "Conditioning",
+        "caption": "Low-impact cardio when you want quiet miles.",
+        "alt": "Person training on a stationary bike in a modern studio"
+      },
+      "4": {
+        "title": "Recovery",
+        "caption": "Heat, cold, and mobility — part of the week.",
+        "alt": "Spa pool and calm wellness lighting"
+      },
+      "5": {
+        "title": "Private session",
+        "caption": "One coach, one calendar — yours.",
+        "alt": "Personal training session with coach and client"
+      }
+    }
+  },
+  "membership": {
+    "eyebrow": "Membership",
+    "heading": "Intentionally capped",
+    "body": "We onboard in small cohorts so the floor stays quiet. Pricing reflects commitment — details on consultation.",
+    "badgeFeatured": "House choice",
+    "perMonth": " / month",
+    "ctaConsult": "Book a consult",
+    "ctaInquire": "Inquire",
+    "plans": [
+      {
+        "name": "Studio",
+        "featured": false,
+        "price": "From $180",
+        "priceIsInquiry": false,
+        "description": "For members who value rhythm and independence",
+        "features": [
+          "House access in member windows",
+          "Program design & check-ins",
+          "Locker + amenities",
+          "Small-group strength (by calendar)"
+        ]
+      },
+      {
+        "name": "Resident",
+        "featured": true,
+        "price": "From $340",
+        "priceIsInquiry": false,
+        "description": "The house standard — coaching-forward",
+        "features": [
+          "Everything in Studio",
+          "Dedicated coaching blocks",
+          "Nutrition touchpoints",
+          "Recovery suite priority",
+          "Guest pass (limited)"
+        ]
+      },
+      {
+        "name": "Private",
+        "featured": false,
+        "price": "By inquiry",
+        "priceIsInquiry": true,
+        "description": "Discreet training for demanding schedules",
+        "features": [
+          "Everything in Resident",
+          "Priority calendar holds",
+          "Private lounge + arrival",
+          "Concierge scheduling",
+          "Bespoke periodization",
+          "Travel protocols on request"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Next step",
+    "heading": "A short conversation — then a private walk-through",
+    "body": "We do not sell on the floor. If the house suits you, we'll discuss membership in plain terms.",
+    "primary": "Request introduction",
+    "secondary": "Reserve a visit"
+  },
+  "footer": {
+    "tagline": "A members' training house — quiet equipment, senior coaching, and a calendar that respects your week.",
+    "quickLinks": "Quick links",
+    "company": "Company",
+    "follow": "Follow us",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "blog": "Blog",
+    "careers": "Careers",
+    "rights": "All rights reserved.",
+    "finePrint": "Private consultations · By appointment",
+    "copyrightBrand": "Elloumi Concept"
+  },
+  "reservation": {
+    "metaTitle": "Reserve a visit | Elloumi Concept",
+    "metaDescription": "Request a private tour or consultation. The concierge will confirm by email.",
+    "eyebrow": "Reservation",
+    "heading": "Request a private visit",
+    "body": "We keep the floor calm — visits are scheduled, not dropped in. Share a window that works; we'll reply with a confirmed time or a close alternative.",
+    "back": "← Back to the house",
+    "form": {
+      "successTitle": "Request received",
+      "successBody": "The concierge will confirm your preferred window by email within one business day. If your date is urgent, note it in the message field next time — or call the studio directly.",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "date": "Preferred date",
+      "time": "Preferred time",
+      "focus": "Visit focus",
+      "focusPlaceholder": "Select one",
+      "notes": "Notes for the house",
+      "notesPlaceholder": "Dietary or training context, accessibility needs, or ideal windows during the week.",
+      "submit": "Submit request",
+      "placeholders": {
+        "name": "Alexandre Elloumi",
+        "email": "you@domain.com",
+        "phone": "+1 · · · · · · · · ·"
+      },
+      "focusOptions": [
+        { "value": "tour", "label": "Private tour" },
+        { "value": "consult", "label": "Membership consult" },
+        { "value": "session", "label": "Trial session" }
+      ]
+    }
+  },
+  "language": {
+    "label": "Language",
+    "en": "EN",
+    "fr": "FR"
+  }
+}

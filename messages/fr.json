@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Elloumi Concept — Maison d'entraînement privée",
+    "description": "Coaching privé, adhésions limitées. Un plateau calme, des coachs seniors, une maison pensée pour l'entraînement sérieux — sur rendez-vous uniquement."
+  },
+  "header": {
+    "house": "La maison",
+    "membership": "Adhésion",
+    "reserve": "Réserver",
+    "contact": "Contact",
+    "concierge": "Conciergerie",
+    "menu": "Menu",
+    "brandAccent": " Concept"
+  },
+  "hero": {
+    "eyebrow": "Coaching privé · Adhésions limitées",
+    "titleLine1": "Une adresse discrète",
+    "titleLine2": "pour un entraînement sérieux",
+    "body": "Uniquement sur rendez-vous. Un plateau calme, du matériel choisi, et des coachs qui forment des professionnels — pas la foule.",
+    "ctaPrimary": "Demander l'accès",
+    "ctaSecondary": "Voir la maison",
+    "imageAlt": "Plateau d'entraînement minimal avec racks et lumière douce"
+  },
+  "features": {
+    "eyebrow": "Le standard",
+    "heading": "Rien d'ostentatoire. Tout est pensé.",
+    "items": [
+      {
+        "title": "Plateau curated",
+        "description": "Une sélection serrée de matériel — chaque pièce pour la sensation, la durée et la précision."
+      },
+      {
+        "title": "Coachs seniors",
+        "description": "Pas de circulation sur le plateau. Des séances privées, au bon rythme, calées sur votre agenda."
+      },
+      {
+        "title": "Créneaux membres",
+        "description": "Des plages calmes réservées à la maison — sans le spectacle du grand club."
+      },
+      {
+        "title": "Récupération intégrée",
+        "description": "Froid, chaleur et mobilité dans le programme — pas un couloir d'options payantes."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "La maison",
+    "heading": "Des espaces avec une intention — pas un parc d'attractions",
+    "body": "Chaque zone est dimensionnée pour la façon dont les membres s'entraînent vraiment : peu de marche entre les stations, des lignes de vue basses, une lumière qui flatte l'effort plutôt qu'elle éblouit. Ces images sont des références que nous aimons ; la vôtre sera photographiée sur place après l'ouverture.",
+    "aside": "Les visites sont privées, sans précipitation. Si vous comparez des clubs, venez avec vos chaussures — nous préférons que vous sentiez le sol plutôt que de relire une brochure.",
+    "images": {
+      "1": {
+        "title": "Le plateau",
+        "caption": "Des lignes claires, sans encombrement — de la place pour bouger et respirer.",
+        "alt": "Vaste plateau de sport avec équipement et grandes fenêtres"
+      },
+      "2": {
+        "title": "Salle force",
+        "caption": "Haltères et disques calibrés.",
+        "alt": "Espace musculation avec haltères et bancs"
+      },
+      "3": {
+        "title": "Conditionnement",
+        "caption": "Cardio doux quand vous voulez des kilomètres silencieux.",
+        "alt": "Personne à vélo stationnaire dans un studio moderne"
+      },
+      "4": {
+        "title": "Récupération",
+        "caption": "Chaleur, froid et mobilité — dans la semaine, pas à côté.",
+        "alt": "Bassin spa et lumière apaisante"
+      },
+      "5": {
+        "title": "Séance privée",
+        "caption": "Un coach, un agenda — le vôtre.",
+        "alt": "Séance de coaching personnel avec coach et membre"
+      }
+    }
+  },
+  "membership": {
+    "eyebrow": "Adhésion",
+    "heading": "Des places limitées, volontairement",
+    "body": "Nous accueillons par petites cohortes pour garder le plateau silencieux. Les tarifs reflètent l'engagement — le détail en entretien.",
+    "badgeFeatured": "Choix de la maison",
+    "perMonth": " / mois",
+    "ctaConsult": "Réserver un entretien",
+    "ctaInquire": "Demander une offre",
+    "plans": [
+      {
+        "name": "Studio",
+        "featured": false,
+        "price": "À partir de 180 $",
+        "priceIsInquiry": false,
+        "description": "Pour les membres qui veulent rythme et autonomie",
+        "features": [
+          "Accès à la maison sur créneaux membres",
+          "Programmation et points d'étape",
+          "Casier + commodités",
+          "Force en petit groupe (au calendrier)"
+        ]
+      },
+      {
+        "name": "Résident",
+        "featured": true,
+        "price": "À partir de 340 $",
+        "priceIsInquiry": false,
+        "description": "Le standard de la maison — coaching au centre",
+        "features": [
+          "Tout le Studio",
+          "Blocs coaching dédiés",
+          "Points nutrition",
+          "Priorité espace récupération",
+          "Invité (limité)"
+        ]
+      },
+      {
+        "name": "Privé",
+        "featured": false,
+        "price": "Sur devis",
+        "priceIsInquiry": true,
+        "description": "Entraînement discret pour agendas exigeants",
+        "features": [
+          "Tout le Résident",
+          "Priorité sur le calendrier",
+          "Salon privé + arrivée",
+          "Planning conciergerie",
+          "Périodisation sur mesure",
+          "Protocoles voyage sur demande"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Étape suivante",
+    "heading": "Un court échange — puis une visite privée",
+    "body": "Nous ne vendons pas sur le plateau. Si la maison vous convient, nous parlons adhésion simplement, sans artifice.",
+    "primary": "Demander une introduction",
+    "secondary": "Réserver une visite"
+  },
+  "footer": {
+    "tagline": "Une maison d'entraînement pour membres — matériel discret, coachs seniors, et un calendrier qui respecte votre semaine.",
+    "quickLinks": "Liens rapides",
+    "company": "Société",
+    "follow": "Nous suivre",
+    "privacy": "Confidentialité",
+    "terms": "Conditions d'utilisation",
+    "blog": "Journal",
+    "careers": "Carrières",
+    "rights": "Tous droits réservés.",
+    "finePrint": "Consultations privées · Sur rendez-vous",
+    "copyrightBrand": "Elloumi Concept"
+  },
+  "reservation": {
+    "metaTitle": "Réserver une visite | Elloumi Concept",
+    "metaDescription": "Demandez une visite privée ou un entretien. La conciergerie confirme par e-mail.",
+    "eyebrow": "Réservation",
+    "heading": "Demander une visite privée",
+    "body": "Nous gardons le plateau calme — les visites sont planifiées, pas improvisées. Indiquez un créneau qui vous convient ; nous répondons avec une confirmation ou une alternative proche.",
+    "back": "← Retour à la maison",
+    "form": {
+      "successTitle": "Demande reçue",
+      "successBody": "La conciergerie confirmera votre créneau par e-mail sous un jour ouvré. Si la date est urgente, précisez-le dans le message — ou appelez directement le studio.",
+      "name": "Nom complet",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "date": "Date souhaitée",
+      "time": "Heure souhaitée",
+      "focus": "Objet de la visite",
+      "focusPlaceholder": "Choisir",
+      "notes": "Notes pour la maison",
+      "notesPlaceholder": "Contexte alimentaire ou d'entraînement, accessibilité, ou fenêtres idéales dans la semaine.",
+      "submit": "Envoyer la demande",
+      "placeholders": {
+        "name": "Alexandre Elloumi",
+        "email": "vous@domaine.com",
+        "phone": "+33 · · · · · · · · ·"
+      },
+      "focusOptions": [
+        { "value": "tour", "label": "Visite privée" },
+        { "value": "consult", "label": "Entretien adhésion" },
+        { "value": "session", "label": "Séance d'essai" }
+      ]
+    }
+  },
+  "language": {
+    "label": "Langue",
+    "en": "EN",
+    "fr": "FR"
+  }
+}
