@@ -43,25 +43,30 @@ export function ReservationForm() {
         <motion.form
           key="form"
           onSubmit={handleSubmit}
-          className="max-w-lg space-y-8"
+          className="space-y-7"
           initial={{ opacity: 0, y: reduce ? 0 : 10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: reduce ? 0 : -6 }}
           transition={{ duration: 0.45, ease: easeLuxury }}
         >
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-2">
         <div className="space-y-2 sm:col-span-2">
-          <Label htmlFor="name">{form.name}</Label>
+          <Label htmlFor="name" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.name}
+          </Label>
           <Input
             id="name"
             name="name"
             required
             autoComplete="name"
             placeholder={form.placeholders.name}
+            className="h-11 border-border/70 bg-background/60"
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="email">{form.email}</Label>
+          <Label htmlFor="email" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.email}
+          </Label>
           <Input
             id="email"
             name="email"
@@ -69,33 +74,43 @@ export function ReservationForm() {
             required
             autoComplete="email"
             placeholder={form.placeholders.email}
+            className="h-11 border-border/70 bg-background/60"
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="phone">{form.phone}</Label>
+          <Label htmlFor="phone" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.phone}
+          </Label>
           <Input
             id="phone"
             name="phone"
             type="tel"
             autoComplete="tel"
             placeholder={form.placeholders.phone}
+            className="h-11 border-border/70 bg-background/60"
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="date">{form.date}</Label>
-          <Input id="date" name="date" type="date" required />
+          <Label htmlFor="date" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.date}
+          </Label>
+          <Input id="date" name="date" type="date" required className="h-11 border-border/70 bg-background/60" />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="time">{form.time}</Label>
-          <Input id="time" name="time" type="time" />
+          <Label htmlFor="time" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.time}
+          </Label>
+          <Input id="time" name="time" type="time" className="h-11 border-border/70 bg-background/60" />
         </div>
         <div className="space-y-2 sm:col-span-2">
-          <Label htmlFor="focus">{form.focus}</Label>
+          <Label htmlFor="focus" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.focus}
+          </Label>
           <select
             id="focus"
             name="focus"
             required
-            className="border-input h-9 w-full rounded-md border bg-transparent px-3 py-1 text-sm shadow-xs outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] dark:bg-input/30"
+            className="h-11 w-full rounded-md border border-border/70 bg-background/60 px-3 text-sm shadow-xs outline-none transition-colors focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/40"
             defaultValue=""
           >
             <option value="" disabled>
@@ -109,20 +124,22 @@ export function ReservationForm() {
           </select>
         </div>
         <div className="space-y-2 sm:col-span-2">
-          <Label htmlFor="notes">{form.notes}</Label>
+          <Label htmlFor="notes" className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            {form.notes}
+          </Label>
           <Textarea
             id="notes"
             name="notes"
             rows={4}
             placeholder={form.notesPlaceholder}
-            className="min-h-[120px] resize-y"
+            className="min-h-[120px] resize-y border-border/70 bg-background/60"
           />
         </div>
       </div>
           <motion.div whileHover={reduce ? undefined : { scale: 1.01 }} whileTap={reduce ? undefined : { scale: 0.99 }}>
             <button
               type="submit"
-              className="w-full bg-accent px-6 py-3 text-xs font-medium uppercase tracking-[0.2em] text-accent-foreground transition-opacity hover:opacity-90"
+              className="w-full rounded-sm bg-accent px-6 py-3.5 text-xs font-medium uppercase tracking-[0.2em] text-accent-foreground transition-all hover:-translate-y-0.5 hover:opacity-90"
             >
               {form.submit}
             </button>
