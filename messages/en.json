@@ -18,7 +18,7 @@
     "eyebrow": "Private training · Limited membership",
     "titleLine1": "A discreet address",
     "titleLine2": "for serious training",
-    "body": "By appointment only. A calm floor, considered equipment, and coaches who train professionals — not crowds.",
+    "body": "By appointment only. A calm floor, considered equipment, and coaches who train professionals not crowds.",
     "ctaPrimary": "Request access",
     "ctaSecondary": "View the house",
     "imageAlt": "Minimal training floor with racks and soft daylight"
@@ -232,5 +232,39 @@
     "label": "Language",
     "en": "EN",
     "fr": "FR"
+  },
+  "assistant": {
+    "triggerLabel": "Open quick answers",
+    "eyebrow": "Instant brief",
+    "chatTitle": "House line",
+    "title": "Five answers. Zero fluff.",
+    "subtitle": "Tap a line. One tight reply — then go train.",
+    "opening": "Hi — pick a topic below. I keep each reply short.",
+    "pickOne": "Your move",
+    "allAnswered": "That's the full set. Use **Reserve** on the site for anything else.",
+    "close": "Close chat",
+    "footer": "Bookings · human concierge only",
+    "items": [
+      {
+        "q": "How do I get in the door?",
+        "a": "By appointment. Hit **Reserve**, pick a window — we confirm, not guess."
+      },
+      {
+        "q": "Will it feel crowded?",
+        "a": "No floor traffic. Members-only blocks, private sessions — quiet by design."
+      },
+      {
+        "q": "Where are the numbers?",
+        "a": "**Membership** lists DT tariffs. Promos move — concierge locks the quote."
+      },
+      {
+        "q": "Is this medical advice?",
+        "a": "No. We coach training; clinicians own medicine."
+      },
+      {
+        "q": "Private coaching — how?",
+        "a": "One coach, one calendar. **Reserve** a consult — we match pace and goals."
+      }
+    ]
   }
 }

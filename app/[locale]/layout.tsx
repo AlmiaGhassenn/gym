@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
+import { GymAiAssistant } from '@/components/gym-ai-assistant'
 import { I18nProvider } from '@/components/i18n-provider'
 import { isLocale, locales, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
@@ -44,6 +45,7 @@ export default async function LocaleLayout({
   return (
     <I18nProvider locale={raw} messages={messages}>
       {children}
+      <GymAiAssistant />
     </I18nProvider>
   )
 }

@@ -232,5 +232,39 @@
     "label": "Langue",
     "en": "EN",
     "fr": "FR"
+  },
+  "assistant": {
+    "triggerLabel": "Ouvrir les réponses rapides",
+    "eyebrow": "Brève instantanée",
+    "chatTitle": "Ligne maison",
+    "title": "Cinq réponses. Zéro blabla.",
+    "subtitle": "Touchez une ligne. Une réponse sèche — puis l'entraînement.",
+    "opening": "Bonjour — choisissez un sujet ci-dessous. Je reste court.",
+    "pickOne": "À vous",
+    "allAnswered": "C'est tout le jeu. Pour la suite, **Réserver** sur le site.",
+    "close": "Fermer le fil",
+    "footer": "Réservations · conciergerie humaine",
+    "items": [
+      {
+        "q": "Comment entrer ?",
+        "a": "Sur rendez-vous. **Réserver**, un créneau — nous confirmons, pas l'inverse."
+      },
+      {
+        "q": "Il y a foule ?",
+        "a": "Pas de circulation sur le plateau. Plages membres, séances privées — calme voulu."
+      },
+      {
+        "q": "Où sont les tarifs ?",
+        "a": "Sous **Adhésion**, en DT. Les promos bougent — la conciergerie fige le prix."
+      },
+      {
+        "q": "C'est un avis médical ?",
+        "a": "Non. Nous coachons l'entraînement — la médecine, c'est le domaine des cliniciens."
+      },
+      {
+        "q": "Coaching privé — comment ?",
+        "a": "Un coach, un agenda. **Réserver** un entretien — on calibre rythme et objectifs."
+      }
+    ]
   }
 }
