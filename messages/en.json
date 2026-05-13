@@ -80,53 +80,98 @@
   },
   "membership": {
     "eyebrow": "Membership",
-    "heading": "Intentionally capped",
-    "body": "We onboard in small cohorts so the floor stays quiet. Pricing reflects commitment — details on consultation.",
-    "badgeFeatured": "House choice",
+    "heading": "Our prices",
+    "body": "Transparent tariffs from Elloumi Concept Gym. Contact us to confirm current promotions or updates.",
+    "badgeFeatured": "Popular",
     "perMonth": " / month",
     "ctaConsult": "Book a consult",
     "ctaInquire": "Inquire",
     "plans": [
       {
-        "name": "Studio",
+        "name": "Classique",
         "featured": false,
-        "price": "From $180",
+        "price": "From 40 DT",
         "priceIsInquiry": false,
-        "description": "For members who value rhythm and independence",
+        "description": "Classic membership options",
         "features": [
-          "House access in member windows",
-          "Program design & check-ins",
-          "Locker + amenities",
-          "Small-group strength (by calendar)"
+          "1 session: 40 DT",
+          "1 month: 190 DT",
+          "3 months: 490 DT",
+          "6 months: 790 DT",
+          "9 months: 1100 DT",
+          "12 months: 1390 DT"
         ]
       },
       {
-        "name": "Resident",
+        "name": "Couple (per person)",
         "featured": true,
-        "price": "From $340",
+        "price": "From 700 DT",
         "priceIsInquiry": false,
-        "description": "The house standard — coaching-forward",
+        "description": "Couple package pricing",
         "features": [
-          "Everything in Studio",
-          "Dedicated coaching blocks",
-          "Nutrition touchpoints",
-          "Recovery suite priority",
-          "Guest pass (limited)"
+          "6 months: 700 DT",
+          "9 months: 1000 DT",
+          "12 months: 1300 DT"
         ]
       },
       {
-        "name": "Private",
+        "name": "Family Pack (3 people)",
         "featured": false,
-        "price": "By inquiry",
-        "priceIsInquiry": true,
-        "description": "Discreet training for demanding schedules",
+        "price": "From 1600 DT",
+        "priceIsInquiry": false,
+        "description": "Family membership for 3 people",
         "features": [
-          "Everything in Resident",
-          "Priority calendar holds",
-          "Private lounge + arrival",
-          "Concierge scheduling",
-          "Bespoke periodization",
-          "Travel protocols on request"
+          "6 months: 1600 DT",
+          "9 months: 2400 DT",
+          "12 months: 2900 DT"
+        ]
+      },
+      {
+        "name": "Family Pack (4 people)",
+        "featured": false,
+        "price": "From 1800 DT",
+        "priceIsInquiry": false,
+        "description": "Family membership for 4 people",
+        "features": [
+          "6 months: 1800 DT",
+          "9 months: 2700 DT",
+          "12 months: 3300 DT"
+        ]
+      },
+      {
+        "name": "Private Coaching",
+        "featured": false,
+        "price": "From 40 DT",
+        "priceIsInquiry": true,
+        "description": "One-to-one coaching sessions",
+        "features": [
+          "1 session: 40 DT",
+          "10 sessions: 300 DT",
+          "15 sessions: 400 DT",
+          "20 sessions: 500 DT"
+        ]
+      },
+      {
+        "name": "Kids Club",
+        "featured": false,
+        "price": "From 120 DT",
+        "priceIsInquiry": false,
+        "description": "Membership plans for kids",
+        "features": [
+          "1 month: 120 DT",
+          "3 months: 330 DT",
+          "6 months: 600 DT"
+        ]
+      },
+      {
+        "name": "Infrared Sauna Access",
+        "featured": false,
+        "price": "From 300 DT",
+        "priceIsInquiry": true,
+        "description": "Sauna session packs",
+        "features": [
+          "Pack 10 sessions: 300 DT",
+          "Pack 20 sessions: 500 DT"
         ]
       }
     ]

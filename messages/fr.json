@@ -80,53 +80,98 @@
   },
   "membership": {
     "eyebrow": "Adhésion",
-    "heading": "Des places limitées, volontairement",
-    "body": "Nous accueillons par petites cohortes pour garder le plateau silencieux. Les tarifs reflètent l'engagement — le détail en entretien.",
-    "badgeFeatured": "Choix de la maison",
+    "heading": "Nos tarifs",
+    "body": "Tarifs transparents d'Elloumi Concept Gym. Contactez-nous pour confirmer les promotions ou mises à jour.",
+    "badgeFeatured": "Populaire",
     "perMonth": " / mois",
     "ctaConsult": "Réserver un entretien",
     "ctaInquire": "Demander une offre",
     "plans": [
       {
-        "name": "Studio",
+        "name": "Classique",
         "featured": false,
-        "price": "À partir de 180 $",
+        "price": "À partir de 40 DT",
         "priceIsInquiry": false,
-        "description": "Pour les membres qui veulent rythme et autonomie",
+        "description": "Options d'adhésion classiques",
         "features": [
-          "Accès à la maison sur créneaux membres",
-          "Programmation et points d'étape",
-          "Casier + commodités",
-          "Force en petit groupe (au calendrier)"
+          "1 séance : 40 DT",
+          "1 mois : 190 DT",
+          "3 mois : 490 DT",
+          "6 mois : 790 DT",
+          "9 mois : 1100 DT",
+          "12 mois : 1390 DT"
         ]
       },
       {
-        "name": "Résident",
+        "name": "Couple (par personne)",
         "featured": true,
-        "price": "À partir de 340 $",
+        "price": "À partir de 700 DT",
         "priceIsInquiry": false,
-        "description": "Le standard de la maison — coaching au centre",
+        "description": "Tarifs pack couple",
         "features": [
-          "Tout le Studio",
-          "Blocs coaching dédiés",
-          "Points nutrition",
-          "Priorité espace récupération",
-          "Invité (limité)"
+          "6 mois : 700 DT",
+          "9 mois : 1000 DT",
+          "12 mois : 1300 DT"
         ]
       },
       {
-        "name": "Privé",
+        "name": "Pack Famille (3 personnes)",
         "featured": false,
-        "price": "Sur devis",
-        "priceIsInquiry": true,
-        "description": "Entraînement discret pour agendas exigeants",
+        "price": "À partir de 1600 DT",
+        "priceIsInquiry": false,
+        "description": "Adhésion famille pour 3 personnes",
         "features": [
-          "Tout le Résident",
-          "Priorité sur le calendrier",
-          "Salon privé + arrivée",
-          "Planning conciergerie",
-          "Périodisation sur mesure",
-          "Protocoles voyage sur demande"
+          "6 mois : 1600 DT",
+          "9 mois : 2400 DT",
+          "12 mois : 2900 DT"
+        ]
+      },
+      {
+        "name": "Pack Famille (4 personnes)",
+        "featured": false,
+        "price": "À partir de 1800 DT",
+        "priceIsInquiry": false,
+        "description": "Adhésion famille pour 4 personnes",
+        "features": [
+          "6 mois : 1800 DT",
+          "9 mois : 2700 DT",
+          "12 mois : 3300 DT"
+        ]
+      },
+      {
+        "name": "Coaching privé",
+        "featured": false,
+        "price": "À partir de 40 DT",
+        "priceIsInquiry": true,
+        "description": "Séances de coaching individuel",
+        "features": [
+          "1 séance : 40 DT",
+          "10 séances : 300 DT",
+          "15 séances : 400 DT",
+          "20 séances : 500 DT"
+        ]
+      },
+      {
+        "name": "Kids Club",
+        "featured": false,
+        "price": "À partir de 120 DT",
+        "priceIsInquiry": false,
+        "description": "Formules d'adhésion pour enfants",
+        "features": [
+          "1 mois : 120 DT",
+          "3 mois : 330 DT",
+          "6 mois : 600 DT"
+        ]
+      },
+      {
+        "name": "Accès sauna infrarouge",
+        "featured": false,
+        "price": "À partir de 300 DT",
+        "priceIsInquiry": true,
+        "description": "Packs de séances sauna",
+        "features": [
+          "Pack 10 séances : 300 DT",
+          "Pack 20 séances : 500 DT"
         ]
       }
     ]

@@ -40,7 +40,7 @@ export function Membership() {
           </motion.p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
           {plans.map((plan, index) => (
             <motion.div
               key={plan.name + index}
